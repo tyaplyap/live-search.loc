@@ -1,4 +1,4 @@
-<?php if($articles !== []) : ?>
+<?php //if($articles !== []) : ?>
 Вывод в виде списка со сслыками:
 <ol>
 	<?php foreach ($articles as $article): ?>
@@ -14,4 +14,4 @@
 	<?php endforeach; ?>
 	<input type="submit">	
 </form>
-<?php endif; ?>
+<?php //endif; ?>

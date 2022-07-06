@@ -27,10 +27,10 @@
 				
 				// Если поиск не дал результатов, ничего не возвращаем
 				// чтобы лишние html-теги из searchForm.php не попали на страницу
-				// Перенес эту логику в шаблон searchResults.php
-				/* if($articles === []){
+				// Можно перенести эту логику в шаблон searchResults.php
+				if($articles === []){
 					return;
-				} */
+				}
 				
 				// Подаем только вставку для страницы поиска searchForm.php
 				$this->view->renderHtml('searchResults.php', ['articles' => $articles]);
